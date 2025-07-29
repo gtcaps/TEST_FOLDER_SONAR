@@ -129,12 +129,13 @@ function modifyParameter(arr) {
     return arr;
 }
 
-/*
+
 // 15. Alert en código de producción
 function showAlert(message) {
     alert(message); // No recomendado para producción
 }
 
+/*
 // 16. Console.log olvidado
 function debugFunction(data) {
     console.log("Debug info:", data); // Console.log en código
