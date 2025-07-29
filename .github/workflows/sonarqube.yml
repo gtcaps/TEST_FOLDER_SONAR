@@ -28,7 +28,6 @@ jobs:
       - name: Analyze with SonarQube
         uses: SonarSource/sonarqube-scan-action@7295e71c9583053f5bf40e9d4068a0c974603ec8
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SONAR_TOKEN: sqp_580976ff83e89d463708e0c36f326db7ee95b0e9
           SONAR_HOST_URL: http://ec2-54-224-251-207.compute-1.amazonaws.com:9005
         with:
