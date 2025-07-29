@@ -135,7 +135,7 @@ function showAlert(message) {
     alert(message); // No recomendado para producción
 }
 
-/*
+
 // 16. Console.log olvidado
 function debugFunction(data) {
     console.log("Debug info:", data); // Console.log en código
@@ -210,4 +210,4 @@ function unsafeRegex(input) {
 function nestedTernary(a, b, c) {
     return a > b ? (b > c ? a : c) : (a > c ? b : a); // Difícil de leer
 }
-*/
+
